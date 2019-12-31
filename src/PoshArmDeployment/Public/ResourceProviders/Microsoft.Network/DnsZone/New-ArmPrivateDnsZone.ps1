@@ -8,16 +8,22 @@ function New-ArmPrivateDnsZone {
         $Name,
         [string]
         $Location = "global",
+        [ValidateRange(1, 25000)]
         [int]
         $MaxNumberOfRecordSets = 25000,
+        [ValidateRange(0, 1000)]
         [int]
         $MaxNumberOfVirtualNetworkLinks = 1000,
+        [ValidateRange(0, 100)]
         [int]
         $MaxNumberOfVirtualNetworkLinksWithRegistration = 100,
+        [ValidateRange(1, 25000)]
         [int]
         $NumberOfRecordSets = 4,
+        [ValidateRange(0, 1000)]
         [int]
         $NumberOfVirtualNetworkLinks = 1,
+        [ValidateRange(0, 100)]
         [int]
         $NumberOfVirtualNetworkLinksWithRegistration = 0,
         [string]
