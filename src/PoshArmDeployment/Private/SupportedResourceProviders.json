@@ -4,6 +4,10 @@
     "shortName": "sa"
   },
   {
+    "resourceType": "Microsoft.Storage/storageAccounts/managementPolicies",
+    "shortName": "samp"
+  },
+  {
     "resourceType": "Microsoft.KeyVault/vaults",
     "shortName": "kv"
   },
